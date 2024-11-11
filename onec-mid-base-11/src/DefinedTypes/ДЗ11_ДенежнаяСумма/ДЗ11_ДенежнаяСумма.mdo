@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01deb8fb-2279-4490-98db-e5aec9c04333">
+  <producedTypes>
+    <containerType typeId="a03e4316-af3b-403c-b13e-cf0caf508d27" valueTypeId="71a8c71d-788e-4f3f-b243-d78497fee4e3"/>
+  </producedTypes>
+  <name>ДЗ11_ДенежнаяСумма</name>
+  <synonym>
+    <key>ru</key>
+    <value>Денежная сумма</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+      <scale>2</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+</mdclass:DefinedType>
