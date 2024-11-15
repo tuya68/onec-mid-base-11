@@ -3,10 +3,10 @@
   <producedTypes>
     <containerType typeId="a03e4316-af3b-403c-b13e-cf0caf508d27" valueTypeId="71a8c71d-788e-4f3f-b243-d78497fee4e3"/>
   </producedTypes>
-  <name>ДЗ11_ДенежнаяСумма</name>
+  <name>ДЗ11_Скидка</name>
   <synonym>
     <key>ru</key>
-    <value>Денежная сумма</value>
+    <value>Скидка</value>
   </synonym>
   <type>
     <types>Number</types>

@@ -193,6 +193,40 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="6cfdf34a-cbb0-4621-95f1-fdf1239d3f44">
+    <name>ДЗ11_КонтактноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактное лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДЗ11_КонтактныеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Document.ЗаказПокупателя.Attribute.Контрагент</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="54f97f03-0368-428f-a8c0-76e063ac6d6b">
+    <name>ДЗ11_СогласованнаяСкидка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласованная скидка</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ДЗ11_Скидка</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="d2984117-1a5a-45ca-bc97-adb070bd946d">
     <name>ФормаДокумента</name>
     <synonym>
